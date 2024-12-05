@@ -9,4 +9,4 @@ const getMaterias = (req, res) => {
     })
 } 
 
-module.exports = getMaterias;
+module.exports = { getMaterias };
