@@ -9,8 +9,8 @@ var usersRouter = require('./routes/users');
 var materiasRouter = require('./routes/materias')
 var maestrosRouter = require('./routes/maestros')
 var gruposRouter = require('./routes/grupos')
-var sesionesRouter = require('./routes/sesion')
-var salonesRouter = require('./routes/salon')
+var sesionesRouter = require('./routes/sesiones')
+var salonesRouter = require('./routes/salones')
 
 var app = express();
 
