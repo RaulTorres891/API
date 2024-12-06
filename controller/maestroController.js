@@ -1,4 +1,4 @@
-const Maestro = require('../models/maestros');
+const Maestro = require('../models/maestro');
 
 const getMaestros = (req, res) => {
     Maestro.getAllMaestros((err, maestros) => {
