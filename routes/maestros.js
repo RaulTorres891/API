@@ -1,5 +1,5 @@
 var express = require("express");
-var results = express.Router();
+var router = express.Router();
 
 const maestroController = require('../controller/maestroController');
 
