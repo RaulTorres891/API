@@ -10,6 +10,7 @@ var materiasRouter = require('./routes/materias')
 var maestrosRouter = require('./routes/maestros')
 var gruposRouter = require('./routes/grupos')
 var sesionesRouter = require('./routes/sesion')
+var salonesRouter = require('./routes/salon')
 
 var app = express();
 
@@ -29,6 +30,7 @@ app.use('/materias', materiasRouter);
 app.use('/maestros', maestrosRouter);
 app.use('/grupos', gruposRouter);
 app.use('/sesiones', sesionesRouter);
+app.use('/salones', salonesRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
